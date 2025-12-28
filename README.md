@@ -59,13 +59,6 @@ claude --plan
 claude --resume
 ```
 
-## Documentation
-
-- [`docs/`](docs/) - Full documentation index
-- [`docs/tools.md`](docs/tools.md) - Tool ecosystem and when to use each
-- [`docs/prompt-modes.md`](docs/prompt-modes.md) - Prompting strategies by mode
-- [`docs/agents.md`](docs/agents.md) - Multi-agent patterns and ideas
-
 ## Adding Content
 
 Keep entries scannable:
