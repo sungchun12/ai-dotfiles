@@ -1,0 +1,21 @@
+[project]
+name = "ai-dotfiles"
+version = "0.1.0"
+description = "Personal configuration and knowledge base for AI development tooling"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["configs"]
+omit = ["tests/*"]

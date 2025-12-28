@@ -15,7 +15,8 @@ ai-dotfiles/
 ├── configs/           # Tool configuration files (Claude, Cursor, etc.)
 ├── scripts/           # Automation scripts for common workflows
 ├── prompts/           # Reusable prompt templates and patterns
-└── docs/              # Detailed documentation and mental models
+├── docs/              # Detailed documentation and mental models
+└── tests/             # pytest tests
 ```
 
 ## Content Guidelines
@@ -26,6 +27,16 @@ When adding to this repository:
 - **Decision trees**: Include mental models for choosing between options
 - **Practical examples**: Every concept should have a working example
 - **Quick reference format**: TL;DR sections at the top of longer documents
+
+## Commands
+
+```bash
+# Run tests
+uv run pytest tests/ -v
+
+# Run tests with coverage
+uv run pytest tests/ --cov=configs --cov-report=term-missing
+```
 
 ## File Conventions
 
