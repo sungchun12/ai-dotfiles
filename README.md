@@ -55,4 +55,4 @@ Keep entries scannable:
 
 ---
 
-*Last updated: December 2024*
+*Last updated: December 27, 2025*
