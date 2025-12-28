@@ -18,5 +18,10 @@
     // Preferred behaviors
     "autoCommit": false,
     "verboseErrors": true
+  },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "python3 /Users/sung/.claude/statusline_command.py"
   }
 }
