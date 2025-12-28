@@ -13,23 +13,9 @@ When designing multi-agent systems:
 | Isolation | How do agents avoid stepping on each other? |
 | Recovery | How do you roll back to a previous state? |
 
-## Isolation with Git Worktrees
+## Isolation
 
-Run parallel Claude Code sessions without conflicts:
-
-```bash
-# Create isolated worktree
-git worktree add ../feature-a feature-a
-cd ../feature-a && claude
-
-# In another terminal
-git worktree add ../feature-b feature-b
-cd ../feature-b && claude
-```
-
-Each session has its own working directory and can make independent changes.
-
-[Full docs](https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees)
+Run parallel Claude Code sessions with git worktrees. See [tools.md - Parallel Execution](tools.md#parallel-execution).
 
 ## Multi-Agent Framework
 
@@ -64,7 +50,4 @@ Ideas for a personal agent workflow toolkit:
 
 ## Observability
 
-Track agent behavior with [Logfire](https://logfire.pydantic.dev/docs/):
-- Free tier available
-- Traces agent calls and tool usage
-- Integrates with pydantic-ai
+See [tools.md - Core Tools](tools.md#core-tools) for Logfire setup.

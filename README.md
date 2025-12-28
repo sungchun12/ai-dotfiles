@@ -16,10 +16,10 @@ ln -sf ~/ai-dotfiles/configs/claude/settings.json ~/.claude/settings.json
 
 | Directory | Purpose |
 |-----------|---------|
-| `configs/` | Tool configurations (Claude, Cursor, etc.) |
-| `scripts/` | Automation for common AI workflows |
-| `prompts/` | Reusable prompt templates |
-| `docs/` | Mental models and detailed guides |
+| [`configs/`](configs/) | Tool configurations (Claude, Cursor, etc.) |
+| [`scripts/`](scripts/) | Automation for common AI workflows |
+| [`prompts/`](prompts/) | Reusable prompt templates |
+| [`docs/`](docs/) | Guides and reference docs |
 
 ## Key Files
 
@@ -61,10 +61,10 @@ claude --resume
 
 ## Documentation
 
+- [`docs/`](docs/) - Full documentation index
 - [`docs/tools.md`](docs/tools.md) - Tool ecosystem and when to use each
 - [`docs/prompt-modes.md`](docs/prompt-modes.md) - Prompting strategies by mode
 - [`docs/agents.md`](docs/agents.md) - Multi-agent patterns and ideas
-- [`docs/mental-models.md`](docs/mental-models.md) - General AI-assisted dev guidance
 
 ## Adding Content
 
