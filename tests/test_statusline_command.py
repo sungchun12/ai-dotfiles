@@ -1,4 +1,4 @@
-"""Tests for statusline-command.py"""
+"""Tests for statusline_command.py"""
 import json
 import subprocess
 import sys
