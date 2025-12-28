@@ -1,0 +1,22 @@
+{
+  // Claude Code settings
+  // Symlink to ~/.claude/settings.json
+
+  "permissions": {
+    // Auto-approve safe read operations
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(npm test:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npx tsc:*)"
+    ]
+  },
+
+  "preferences": {
+    // Preferred behaviors
+    "autoCommit": false,
+    "verboseErrors": true
+  }
+}
