@@ -46,6 +46,26 @@ cp configs/claude/settings.json ~/.claude/settings.json
 ./scripts/new-project.sh my-project
 ```
 
+## Quick Tips
+
+```bash
+# Continue most recent conversation
+claude --continue
+
+# Start in plan mode
+claude --plan
+
+# Resume specific session
+claude --resume
+```
+
+## Documentation
+
+- [`docs/tools.md`](docs/tools.md) - Tool ecosystem and when to use each
+- [`docs/prompt-modes.md`](docs/prompt-modes.md) - Prompting strategies by mode
+- [`docs/agents.md`](docs/agents.md) - Multi-agent patterns and ideas
+- [`docs/mental-models.md`](docs/mental-models.md) - General AI-assisted dev guidance
+
 ## Adding Content
 
 Keep entries scannable:
@@ -54,5 +74,3 @@ Keep entries scannable:
 - Add TL;DR for longer docs
 
 ---
-
-*Last updated: December 27, 2025*
